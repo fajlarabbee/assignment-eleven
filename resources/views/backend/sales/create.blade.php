@@ -21,17 +21,6 @@
                    @endforeach
                </select>
            </div>
-
-
-{{--           <div>--}}
-{{--               <label for="available_stock">Available Quantity</label>--}}
-{{--               <input id="available_stock" type="text" value="{{ $product->stock }}" class="form-input disabled:pointer-events-none disabled:bg-[#eee] dark:disabled:bg-[#1b2e4b]" disabled />--}}
-{{--           </div>--}}
-
-{{--           <div>--}}
-{{--               <label for="unit_price">Unit Price</label>--}}
-{{--               <input id="unit_price" type="text" value="{{ $product->price }}" placeholder="Product Name" class="form-input disabled:pointer-events-none disabled:bg-[#eee] dark:disabled:bg-[#1b2e4b]"  required disabled />--}}
-{{--           </div>--}}
            <div>
                <label for="sale_stock">Quantity <span class="text-danger">required</span></label>
                <input id="sale_stock" type="number" value="{{ old('quantity') }}" step=".01"  name="quantity" placeholder="Quantity" class="form-input" required />
