@@ -1,6 +1,6 @@
 @extends('backend.app')
-@section('title', 'Add Sale Item' . ' | ' . getenv('APP_NAME'))
-@section('crumb-text', 'Add Sale Item')
+@section('title', 'Edit Sale Item' . ' | ' . getenv('APP_NAME'))
+@section('crumb-text', 'Edit Sale Item')
 
 @section('content')
     <!-- horizontal form -->

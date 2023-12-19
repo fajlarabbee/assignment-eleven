@@ -1,4 +1,6 @@
 @extends('backend.app')
+@section('title', 'All Products' . ' | ' . getenv('APP_NAME'))
+@section('crumb-text', 'All Products')
 
 @section('content')
 
