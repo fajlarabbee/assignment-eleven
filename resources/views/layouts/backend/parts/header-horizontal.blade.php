@@ -7,7 +7,7 @@
                     <img class="inline w-8 ltr:-ml-1 rtl:-mr-1" src="{{ asset('assets/images') }}/logo.svg" alt="image" />
                     <span
                         class="hidden align-middle text-2xl font-semibold transition-all duration-300 ltr:ml-1.5 rtl:mr-1.5 dark:text-white-light md:inline"
-                    >VRISTO</span
+                    >Store Keeper</span
                     >
                 </a>
 
