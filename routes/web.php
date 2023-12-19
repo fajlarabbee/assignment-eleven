@@ -7,6 +7,7 @@ use App\Http\Controllers\Dashboard\DashboardController;
 
 
 Route::get('/', DashboardController::class)->name('dashboard.index');
+Route::get('/dashboard', DashboardController::class)->name('dashboard.index');
 
 
 Route::group(['prefix' => 'dashboard', 'name' => 'dashboard.'], function() {
