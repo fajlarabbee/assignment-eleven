@@ -22,11 +22,11 @@
            </div>
            <div>
                <label for="product_stock">Stock <span class="text-danger">required</span></label>
-               <input id="product_stock" type="number" value="{{ old('stock') }}" step=".01"  name="stock" placeholder="Product Name" class="form-input" required />
+               <input id="product_stock" type="number" value="{{ old('stock') }}" step=".01"  name="stock" placeholder="Stock" class="form-input" required />
            </div>
            <div>
                <label for="product_price">Price <span class="text-danger">required</span></label>
-               <input id="product_price" type="number" value="{{ old('price') }}" step=".01" name="price" placeholder="Product Name" class="form-input" required />
+               <input id="product_price" type="number" value="{{ old('price') }}" step=".01" name="price" placeholder="Unit Price" class="form-input" required />
            </div>
 
            <div>

@@ -13,7 +13,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = DB::table('products')->paginate(10);
+        $products = DB::table('products')->latest()->paginate(10);
         return view('backend.products.index', compact('products'));
     }
 
@@ -54,13 +54,6 @@ class ProductController extends Controller
 
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
 
     /**
      * Show the form for editing the specified resource.
@@ -109,7 +102,7 @@ class ProductController extends Controller
      */
     public function destroy(string $id)
     {
-        $product = DB::table('products')->find('$id');
+        $product = DB::table('products')->find($id);
 
         if($product) {
             DB::table('products')->delete($product->id);
